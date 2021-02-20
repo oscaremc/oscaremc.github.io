@@ -1,0 +1,22 @@
+.todo {
+}
+#cabecera {
+	opacity: 1;
+	text-align: center;
+
+}
+#contenido {
+	min-height: 401px;
+
+}
+#footer {
+}
+#img1 {
+	height: 20%;
+	width: auto;
+
+}
+#img2 {
+	height: 30%;
+	width: 100%;
+}

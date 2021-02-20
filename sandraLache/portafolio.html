@@ -1,0 +1,135 @@
+<!DOCTYPE>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    
+    <style>
+    *{
+         font-family: 'Poppins', sans-serif;
+    }
+    .cuerpo_portafolio{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        background-image: url(IMG/fondonosotros.jpg);
+        overflow: hidden;
+    }
+    .bara_minmenu{
+        width: 300px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background: rgb(178, 240, 234);
+        
+    }
+    .bara_minmenu h1{
+        margin: 15px;
+    }
+    .todo_productos{
+        width: 70%;
+        padding: 30px 80px;
+        border: solid;
+        height: auto;
+
+    }
+    .cuadro_producto{
+        border: solid  2px #666;
+        width: 100%;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px 0 #666;
+        display: flex;
+    }
+    .cuadro_producto_imagen{
+        width: 200px;
+        border-radius: 10px;
+        margin-right: 40px;
+    }
+    .cuadro_producto_texto ul{
+        list-style: none;
+        display: flex;
+    }
+    .text_producto_detalle{
+        margin: 5px;
+    }
+    .texto_descripcion_producto{
+        width: 60%; 
+        display: block;
+    }
+    .btn_producto_info, .btn_producto_asesor{
+        border: solid 2px;
+        border-radius: 8px;
+        display: block;
+        right: 0;
+        padding: 0px 10px;
+    
+        
+    }
+    .btn_producto_info a, .btn_producto_asesor a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn_producto_info{
+        border: none;
+        background: rgb(0, 60, 255);
+        color: #fff;
+        box-shadow: 0 3px 10px 0 rgb(3, 16, 117);
+    }
+    .btn_producto_asesor{
+        border: none;
+        background: rgb(52, 206, 0);
+        color: #fff;
+        box-shadow: 0 3px 10px 0 rgb(43, 148, 8);
+        
+    }
+    .cuadro_producto{
+        background: rgba(255, 255, 255, 0.904);
+    }
+    .enlace_producto{
+        width: auto;
+        padding-left: 15px;
+    }
+    .enlace_producto a{
+        text-decoration: none;
+        color: black;
+    }
+    </style>
+    <body>
+        <div class="cuerpo_portafolio">
+            <section class="bara_minmenu">
+                <h1>Todos los productos</h1>
+                <div class="enlace_producto">
+                    <a href=""><h4>Tonico</h4></a>
+                </div>
+            </section>
+            <section class="todo_productos"> 
+                <div class="cuadro_producto">
+                    <img src="#" class="cuadro_producto_imagen" alt="">
+                    <section class="cuadro_producto_texto">
+                        <ul>
+                            <li class="text_producto_detalle Texto_descripcion_producto"><h1>Nombre del Producto</h1></li>
+                            <li class="text_producto_detalle btn_producto_info"><a href="slindex.php"><p>Mas Informacion</p></a></li>
+                        </ul>
+                        <ul>
+                            <li class="text_producto_detalle Texto_descripcion_producto">Breve descripcion del producto donde se pueda destar los mas altos atributos del productos y asi poderlo veder mas rapido</li>
+                            <li class="text_producto_detalle btn_producto_asesor"><a href="contac.html"><p>Solicita Asesor</p></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="cuadro_producto">
+                    <img src="#" class="cuadro_producto_imagen" alt="">
+                    <section class="cuadro_producto_texto">
+                        <ul>
+                            <li class="text_producto_detalle Texto_descripcion_producto"><h1>Nombre del Producto</h1></li>
+                            <li class="text_producto_detalle btn_producto_info"><a href="slindex.php"><p>Mas Informacion</p></a></li>
+                        </ul>
+                        <ul>
+                            <li class="text_producto_detalle Texto_descripcion_producto">Breve descripcion del producto donde se pueda destar los mas altos atributos del productos y asi poderlo veder mas rapido</li>
+                            <li class="text_producto_detalle btn_producto_asesor"><a href="contac.html"><p>Solicita Asesor</p></a></li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

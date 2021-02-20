@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .pie_pagina{
+        display: block;
+        width: 100%;
+        background: #666;
+    }
+    .pie_pagina ul{
+        display: flex;
+        list-style: none;
+    }
+    .pie_pagina li{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+
+    }
+    .tellamamos img{
+        margin: 15px;
+    }
+    .rezz{
+        margin: 3px;
+        padding: 3px;
+    }
+    .infopiepag img{
+        width: 40%;
+        margin-bottom: 15px;
+    }
+    </style>
+    <body>
+        <div class="pie_pagina">
+            <ul>
+                <li class="Cpie_pagina">
+                    <Section class="tellamamos">
+                        <img src="IMG/titulotellamamos.png">
+                        <form action="enviar.php" method="POST">
+                            <input type="text" class="rezz" name="nombre" placeholder="Nombre" value="" title="Escribir Nombre Completo" >
+                            <input type="text" class="rezz" name="telefono" placeholder="Telefono" value="" title="Escribir Telefono Completo" >
+                            <input type="text" class="rezz" name="correo" placeholder="Correo" value="" title="Escribir Nombre Correo" ><br>
+                            <input type="submit" class="rezztt" value="ENVIAR" id="boton" >
+                        </form>
+                    </Section> </li>
+                <li class="Cpie_pagina">
+                    <section class="infopiepag ">
+                        <img src="IMG/slgrn.png" alt="">
+                        <h3>311 545 1757</h3>
+                        <h3>Diagonal 44B # 22a - 80</h3>
+                        <h3>El Tunal</h3>
+                        <h4><a href="#">Ver Ubicacion en Mapa</a></h4>
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </body>
+
+
+</html>
+
+
+

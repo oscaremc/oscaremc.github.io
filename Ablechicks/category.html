@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="icomoon/fonts/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Condiment" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+    <title>Abel Chicks</title>
+</head>
+<style>
+    .marq{
+        margin: 0;
+        padding: 0;
+        max-width: 1280px;
+        width: 100%;
+        height: 780px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        overflow: hidden;
+    }
+    .menu{
+        width: 200px;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        float: left;    
+        position: absolute;
+    }
+    .menu img{
+        width: 80%;
+        margin-top: 30px ;
+    }
+    .redtex{
+        position: relative;
+        text-align: center;
+        top: 300px; 
+     }
+    .redes{
+        width: 100%;
+        height: 30px;
+        border-top: solid 2px #ff9999;
+        text-align: center;
+    }
+    .redes span{
+        font-size: 20px;
+        color: #999;
+        margin: 20px;
+    }
+    .category{
+        width: 100%;
+        position: relative;
+        top: 110px;
+
+    }
+    .category a{
+        width: 100%;
+        text-decoration: none;
+        display: block;
+        color: black;
+        font-size: 20px;
+        padding: 8px 0px;
+    }
+    .category a:hover{
+        background: #ff9999;
+        color: #fff;
+        box-shadow: 5px 5px 5px #999;
+    }
+    .cabez{
+        position: relative;
+        width: 1050px;
+        height: 40px;
+        float: right;
+    }
+    .cabez span{
+        float: right;
+        font-size: 20px;
+        display: flex;
+        margin: 20px 40px;
+    }
+    .cabez a{
+        text-decoration: none;
+        color: #000;
+    }
+    .cuerp{
+        width: 1070px;
+        float: right;
+        position: relative;
+        height: 700px;
+    }
+    .krac{
+        width: 1050px;
+        height: 350px;
+        position: absolute;
+        margin-top: 20px;
+        z-index: 100px;
+    }
+
+    .bar-nav{
+        display: flex;
+        background-image: url(IMG/fondoser.png);
+    }
+    .termin{
+        list-style: none;
+        width: 30%;
+    }
+    .subtermin, .boton{
+        list-style: none;
+    }
+    .subtermin a{
+        text-decoration: none;
+        color: #000;
+    }
+    .btnpro{
+        width: 100%;
+        display: block;
+        border: solid 2px #999;
+        border-radius: 9px;
+        padding: 10px 15px;
+        margin: 25px;
+    }
+    .boton a{
+        text-decoration: none;
+        color: black;
+    }
+    .kroc{
+        z-index: 150;
+        width: 1050px;
+        position: absolute;
+        background: #ff9999;
+        display: flex;
+        justify-content: center;
+    }
+    .prim{
+        margin: 5px 90px;
+    }
+    .prim a{
+        text-decoration: none;
+        color: black;
+    }
+    .contenedor{
+        width: 1050px;
+        height: 320px;
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 743px;
+    }
+    .ttrr{
+        width: 20px;
+        font-size:  20px;
+        margin: 0px 20px;
+    }
+    .ttyy{
+        margin-top: 5px;
+    }
+    .blokin{
+        list-style: none;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 40px 10px; 
+        background: #ff9999;
+        border-radius: 5px;
+    }
+    .blokin:hover{
+        box-shadow: 5px 5px 5px #999;
+        width: 220px;
+        height: 220px;
+
+    }
+    .vesprue{
+        position: relative;
+        z-index: 200;
+        background-image: url(IMG/prue1.jpg);
+        background-repeat: no-repeat;
+        background: cover;
+    }
+    .vesprue:hover{
+        background-image: url(IMG/prue2.jpg);
+    }
+    .flusprue{
+        position: relative;
+        z-index: 200;
+        background-image: url(IMG/prue3.jpg);
+        background-repeat: no-repeat;
+        background: cover;
+    }
+    .flusprue:hover{
+        background-image: url(IMG/prue4.jpg);
+    }
+    .pursi{
+        margin-top: 60px;
+        padding: 10px;
+        font-size: 40px;
+
+    }
+    .vesest{
+        font-family: 'Permanent Marker', cursive;
+
+    }
+    .falest{
+        font-family: 'Luckiest Guy', cursive;
+
+    }
+    .croest{
+        font-family: 'Lobster', cursive;
+
+    }
+    .zapest{
+        font-family: 'Cabin Sketch', cursive;
+    }
+    .bluest{
+        font-family: 'Fontdiner Swanky', cursive;
+    }
+    .panest{
+        font-family: 'Shadows Into Light Two', cursive;
+    }
+    .chaest{
+        font-family: 'Engagement', cursive;
+    }
+    .proest{
+        font-family: 'Condiment', cursive;
+    }
+
+    
+
+    
+</style>
+<body>
+    <center>
+    <div class="marq">
+        <div class="cabez">
+            <div class="conicab">
+                <a href="###"><span class="icon-cart" title="Carro de compras"></span></a>
+                <a href="regristaty.html"><span class="icon-user" title="Perfil personal"></span></a>
+                <a href="###"><span class="icon-search" title="Buscador"></span></a>
+            </div>
+        </div>
+        <div class="cuerp">
+            <div class="cante">
+                <ul>
+                    <li class="blokin vesprue"><h3 class="pursi vesest" > Vestidos</h3></li>
+                    <li class="blokin flusprue"><h3 class="pursi falest" >Faldas</h3></li>
+                    <li class="blokin"><h3 class="pursi croest" >Crop-top</h3></li>
+                    <li class="blokin"><h3 class="pursi panest" > Pantalones</h3></li>
+                </ul>
+                <ul>
+                    <li class="blokin"><h3 class="pursi bluest" >Blusas</h3></li>
+                    <li class="blokin"><h3 class="pursi chaest" > Chaquetas</h3></li>
+                    <li class="blokin"><h3 class="pursi zapest" >Zapatos</h3></li>
+                    <li class="blokin"><h3 class="pursi proest" >Promociones</h3></li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="contenedor">
+        <div class="kroc">
+            <div class="prim" title="Terminos y Condiciones">Terminos y condiciones</div>
+            <div class="prim" title="Servicios">Servicio</div>
+            <div class="prim">
+                <img src="IMG/promo.ico" class="ttrr" alt="" title="Promociones y Descuentos ">
+                <span class="icon-info ttrr" title="Informacion"></span>
+                <span class="icon-phone ttrr" title="Contactenos"></span>
+            </div>
+        </div>
+        <div class="krac">
+            <nav class="bar-nav">
+                <ul class="termin">
+                    <li><h2>Termino y condiciones</h2></li>
+                    <ul class="subtermin">
+                        <li><a href="" title="Preguntas frecuentes">Pregunta frecuente</a></li><br>
+                        <li><a href="" title="Aviso de privacidad ">Aviso de privacidad</a></li><br>
+                        <li><a href="" title="Ayudanos a ser mejor">Ayudanos a ser merjor</a></li><br>
+                        <li><a href="" title="Contactanos">Contactanos</a></li><br>
+                    </ul>
+                </ul>
+                <ul class="termin">
+                    <li><h2>Servicios</h2></li>
+                    <ul class="subtermin">
+                        <li><a href=""  title="Carro de compras">Carro de Compras</a></li><br>
+                        <li><a href="" title="Registro">Registro</a></li><br>
+                        <li><a href="" title="Mayorista">Mayorista</a></li><br>
+                        <li><a href="" title="Idioma">idioma</a></li><br>
+                    </ul>
+                </ul>
+                <ul class="boton">
+                    <li><a href="###" title="Promocion y Descuentos"><div class="promo btnpro">Promocion</div></a></li>
+                    <li><a href="###" title="Contacto"><div class="contacto btnpro">Contacto</div></a></li>
+                    <li><a href="###" title="Ayuda"><div class="ayuda btnpro">Ayuda</div></a></li>
+                </ul>
+            </nav>
+
+        </div>
+        </div>
+        <div class="menu">
+            <img src="IMG/logo185x80.jpg" alt="">
+            <div class="category">
+                <a href="###" title="Todos los vesitos">Vestido</a>
+                <a href="###" title="Todas  las Faldas">Falda</a>
+                <a href="###" title="Todas las blusas">Blusas</a>
+                <a href="###" title="Todos los Crop-Top">Crop-top</a>
+                <a href="###" title="Todo los Pantalones">Pantalones</a>
+                <a href="###" title="Todo las Chaquetas">Chaqetas</a>
+                <a href="###" title="Todo los Zapatos ">Zapatos</a>
+            </div>
+            <div class="redtex">
+                <span>Siguenos</span>
+                <div class="redes">
+                        <span class="facebnt ttyy icon-facebook2" title="Facebook"></span>
+                        <span class="instabnt ttyy icon-instagram" title="Instagram"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+    </center>
+</body>
+</html>

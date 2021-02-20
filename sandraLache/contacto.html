@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+            <title>SANDRA LACHE</title>
+            <meta charset="UTF-8">
+            <meta name="description" content="Agregar Breve Descripcion">
+            <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+            <meta name="keywords" content="Agregar Palabras Claves">
+            <link rel="stylesheet" href="css/estilos.css">
+            <link rel="stylesheet" href="css/fontello.css">
+            <link rel="stylesheet" href="css/font-awesome.css">
+            <link rel="stylesheet" href="animate.css"><meta property="og:title" content="Femacolor, Expertos en la practica del comercio internacional"/>
+            
+            <link rel="icon" href="IMG/IMGinconsandralache.ico">
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="http://www.sandralache.com/"/>
+            <meta property="og:image" content="IMG/logo_contacto.ico"/>
+            <meta property="og:site_name" content="SANDRA LACHE, Distribuidora de productos de salud y belleza."/>
+            <meta property="fb:admins" content="Comercio"/>
+            <meta property="og:description" content="Agregar Breve Descripcion"/>
+            <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+            <script src="js/jquery-3.1.0.min.js"></script>
+            <script src="js/main.js"></script>
+            <style type="text/css"> 
+            #ritz{
+
+            background-image: url("IMG/call.jpg");
+            }
+            </style>
+        </head>
+        <body>
+            
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="icon-menu">Menu</label>
+            <nav class="menu">
+                <ul>
+                    <li class="logo"><a href="index.html"><img src="IMG/logo1v.png" ></a></li>
+                    <li class="submenu"><a href="slnosotros.html" class="textico">NOSOTROS</a></li>
+                    <li class="submenu"><a href="slportafolio.php" class="textico">PORTAFOLIO</a></li>
+                    <li class="submenu"><a href="galery.html" class="textico">GALERIA</a></li>
+                    <li class="submenu"><a href="contac.html" class="textico">CONTACTENOS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <script src="menu.js"></script>
+        
+        <div class="contcuerpo" id="ritz">
+            <div class="titulocontacto">Gracias por Visitarnos, Escribenos y podremos contactar con Tigo <br> y solucionar tus preguntas. <br>Estaremos Felices de poderte ayudar.</div>
+            
+            <form action="enviar.php" method="POST" class="siste">
+            <input   class="jj" REQUIRED type="text"  name="nombre"   placeholder="Nombre"  value="" title="Escribir nombre completo" /></br></br>
+            <input   class="jj" REQUIRED type="text"  name="apellido"   placeholder="Apellido"  value="" title="Escribir apellidos completo" /></br></br>
+            <input   class="jj" REQUIRED type="text"  name="correo"   placeholder="Correo"  value="" title="Escribir correo electronico" /></br></br>
+            <input   class="jj" REQUIRED type="text"  name="celular"   placeholder="Celular"  value="" title="Escribir numero celular" /></br></br>
+            <textarea class="jj" REQUIRED type="text"  name="mensaje"  placeholder="Escriba aqui su mensaje"  title="Escribe tus preguntas y/o sugerencias" style="height: 150px;"></textarea></br></br>
+            <input  class="jj"  type="submit" value="ENVIAR" id="boton"  />
+            </form>
+        </div>
+
+                 
+        <div class="pie_pagina">
+            <ul>
+                <li class="Cpie_pagina">
+                    <Section class="tellamamos">
+                        <img src="IMG/titulotellamamos.png">
+                        <form action="enviar.php" method="POST">
+                            <input type="text" class="rezz" name="nombre" placeholder="Nombre" value="" title="Escribir Nombre Completo" >
+                            <input type="text" class="rezz" name="telefono" placeholder="Telefono" value="" title="Escribir Telefono Completo" >
+                            <input type="text" class="rezz" name="correo" placeholder="Correo" value="" title="Escribir Nombre Correo" ><br>
+                            <input type="submit" class="rezztt" value="ENVIAR" id="boton" >
+                        </form>
+                    </Section> </li>
+                <li class="Cpie_pagina">
+                    <section class="infopiepag ">
+                        <img src="IMG/slgrn.png" alt="">
+                        <h3>311 545 1757</h3>
+                        <h3>Diagonal 44B # 22a - 80</h3>
+                        <h3>El Tunal</h3>
+                        <h4><a href="#">Ver Ubicacion en Mapa</a></h4>
+                    </section>
+                </li>
+            </ul>
+        </div>
+        </body>
+
+</html>
