@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+nav p{
+    color: seagreen;
+}
+.aliados img{
+    width: 200px;
+}
+.nosotros, .noticias div{
+    justify-content: center;
+}
+.nosotros-dos, .nosotros-uno{
+    width: 50rem;
+}
+.galeria1 img, .galeria2 img{
+    width: 30vw;
+
+}
+.galeria3 img{
+    width: 30vh;
+    height: 60vh;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+.galeria4{
+    display: none;
+}
+.galeriapeq{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    width: 60vw;
+    height: 6vh;
+}
+.map img{
+    width: 40vw;
+}
+footer{
+    display: flex;
+}
+.servicios2-uno{
+    padding: 3rem;
+}
+.servicios2-uno img{
+    margin: 0px;
+}

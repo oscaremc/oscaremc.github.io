@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.portada img, .servicios-uno img, nav{
+    width: 100vw;
+}
+nav{
+    position: absolute;
+    background-color: rgb(250, 250, 250, 0.5);
+    height: 4rem;
+}
+.redesportada{
+    position: absolute;
+    margin-top: -19rem;
+    right: 10px;
+}
+.nosotros-titulo{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.nosotros-uno li{
+    margin: 1rem 3rem;
+    list-style: none;
+}
+.nosotros-uno p{
+    display: inline;
+    font-size: 2rem;
+}
+.nosotros-dos{
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+.noticias input{
+    height: 4rem;
+    width: 88vw;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+.servicios{
+    border-radius: 20px;
+    background-color: rgb(41, 179, 237, 0.2);
+    margin: 3rem 0rem;
+    padding: 3rem 0rem;
+}
+.servicios-titulo, .servicios2{
+    text-align: center;
+    margin: 3rem;
+    font-size: 2rem;
+}
+.servicios-titulo h1, .servicios2-titulo h1{
+    margin: 1rem;
+}
+.servicios-uno p{
+    font-size: 2rem;
+    margin: 2rem;
+    text-align: justify;
+}
+.servicios-uno__titulo{
+    text-align: justify;
+    position: absolute;
+    margin-top: 10rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.servicios2 img{
+    width: 40vw;
+    margin: 2rem;
+}
+.aliados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aliados img{
+    width: 40vw;
+    margin: 1rem;
+}
+.galeria div{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.galeria img{
+    width: 80vw;
+    height: 20vh;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px #000;
+}
+.galeria, .form{
+    padding: 4rem 0rem;
+}
+.form-titulo{
+    text-align: center;
+    padding: 2rem;
+}
+.form-titulo h1{
+    font-size:  2rem;
+}
+.form input{
+    width: 100vw;
+    height: 4rem;
+    margin: 0.5rem 0rem;
+    text-align: center;
+}
+.montaña{
+    background: url(/recursos/montana-small.png);
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    padding: 2rem;
+}
+.map{
+    text-align: center;
+}
+.map img{
+    width: 70vw;
+    border-radius: 10px;
+    margin: 2rem;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+.redes img{
+    margin: 2rem;
+}
+.contacto, .contacto a, .horarios{
+    color: white;
+}
+.contacto, .horarios{
+    margin: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.contacto ul, .horarios ul{
+    list-style: none;
+}
