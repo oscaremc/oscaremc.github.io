@@ -34,7 +34,7 @@ nav p{
     height: 20rem;
 }
 .montaña{
-    background: url(/recursos/montana.jpeg);
+    background: url(/recursos/montana.png);
     display: fixed;
 }
 .informacion{

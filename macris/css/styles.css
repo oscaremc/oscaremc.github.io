@@ -63,11 +63,33 @@ nav svg{
     display: flex;
     flex-direction: column;
 }
+.formulario{
+    display: block;
+    margin: auto;
+}
+.form-titulo h1{
+    font-size: 3rem;
+    color: white;
+}
+.form{
+    padding-bottom: 16rem;
+}
+.form-titulo h3{
+    font-size: 2rem;
+}
 .form{
     text-align: center;
+    justify-content: center;
+}
+.textoform{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textoform img{
+    margin: 3rem;
 }
 .form input{
-    width: 60vw;
+    width: 40vw;
     height: 6vh;
 }
 .map img{
@@ -84,9 +106,8 @@ footer{
     margin: 0px;
 }
 .montaña{
-    background: url(/recursos/montana.jpeg);
+    background: url(/recursos/montana.png);
     display: fixed;
-    min-width: 1100px;
 }
 .map img{
     width: 40rem;
@@ -95,7 +116,6 @@ footer{
     width: 20rem;
 }
 .servicios2-uno{
-    border: solid;
     border-radius: 10px;
     max-width: 300px;
 }
