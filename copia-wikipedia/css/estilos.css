@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100vw;
+    height: 90px;
+}
+header div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    font-family: Linux Libertine,Georgia,Times,serif;
+}
+header .header-titulos .svg-wiki svg{
+    width: 176px;
+    height: 32px;
+}
+header .header-titulos p{
+    font-size: 1.2rem;
+}
+header .header-logo{
+    text-align: center;
+}
+header .header-logo img{
+    width: 200px;
+    top: 210px;
+    position: absolute;
+    margin-left: -95px;
+}
+main{
+    width: 100vw;
+}
+main section{
+    text-align: center;
+}
+main section div a {
+    text-decoration: none;
+}
+main section div a strong{
+    font-size: 1.5rem;
+    color: #3366cc;
+}
+main section div a small{
+    font-size: 1.2rem;
+    color: #46596b;
+}
+main section .main-texto_uno {
+    position: absolute;
+    left: 56%;
+    top: 140px;
+}
+main section .main-texto_dos {
+    position: absolute;
+    right: 56%;
+    top: 140px;
+}
+main section .main-texto_tres {
+    position: absolute;
+    left: 61%;
+    top: 210px;
+}
+main section .main-texto_cuatro {
+    position: absolute;
+    right: 61%;
+    top: 210px;
+}
+main section .main-texto_cinco {
+    position: absolute;
+    left: 63%;
+    top: 280px;
+}
+main section .main-texto_seis {
+    position: absolute;
+    right: 63%;
+    top: 280px;
+}
+main section .main-texto_siete {
+    position: absolute;
+    left: 61%;
+    top: 340px;
+}
+main section .main-texto_ocho {
+    position: absolute;
+    right: 61%;
+    top: 340px;
+}
+main section .main-texto_nueve {
+    position: absolute;
+    left: 56%;
+    top: 410px;
+}
+main section .main-texto_diez {
+    position: absolute;
+    right: 56%;
+    top: 410px;
+}
+main section .main-buscador{
+    display: inline-block;
+    margin-top: 320px;
+    width: 540px;
+    height: 70px;
+}
+main section input{
+    border-width: 1px 0 1px 1px;
+    border-radius: 2px 0 0 2px;
+    border-color:  #a2a9b1;
+    font-size: 1.6rem;
+    padding: .8rem 9.6rem .8rem 1.2rem;
+    line-height: 1.6;
+    width: 35%;
+    height: 4.4rem;
+    transition: background .1s ease,border-color .1s ease,box-shadow .1s ease;
+}
+main section input:hover{
+    border-color: #72777d;
+}
+main section input:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: 0;
+}
+main section .main-buscador{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section .main-buscador .main-select-idiomas{
+    display: block;
+    margin-left: -120px;
+    margin-right: 20px;
+    height: 2.4rem;
+    border-radius: 2px;
+    font-size: 1.7rem;
+}
+main section .main-buscador .main-select-idiomas:hover{
+    background-color: #f8f9fa;
+}
+main section .main-buscador .main-select-idiomas form svg {
+    position: static;
+    margin-left: -20px;
+}
+main section .main-buscador .main-select-idiomas select{
+    padding: 1rem 3rem;
+    width: 50px;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    background-origin: solid;
+}
+main section .main-buscador .main-buscador_ancla button{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: .8rem;
+    background-color: #36c;
+    border-color: #36c;
+    min-height: 4rem;
+    border-radius: 0 2px 2px 0;
+}
+main section .boton-lenguaje {
+    text-align: center;
+    margin-top: 30px;
+}
+main section .boton-lenguaje button {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding: .6rem 1.2rem;
+    outline: 1.6rem solid #fff;
+    border: 1px solid #a2a9b1;
+    font-size: 1.4rem;
+    color: #36c;
+    line-height: 1;
+    width: 300px;
+    transition: outline-width .1s ease-in .5s;
+}
+main section .boton-lenguaje button:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+}
+main section .boton-lenguaje button:hover {
+    background-color: #fff;
+    border-color: #a2a9b1;
+}
+main section .boton-lenguaje span p {
+    padding: .5rem;
+}
+main section .boton-lenguaje button .boton-lenguaje_select {
+    margin-top: 6px;
+}
+main section .linea-borde {
+    background-color: #c8ccd1;
+    display: block;
+    position: relative;
+    max-width: 460px;
+    width: 80%;
+    margin: -1.6rem auto 1.6rem;
+    height: 1px;
+    transition: max-width .2s ease-out 400s;
+}
+main section .espacio-blanco {
+    height: 50px;
+}
+main section hr {
+    clear: both;
+    height: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin: .26rem 1.3rem;
+}
+main section .contenedor-items{
+    display: flex;
+}
+main section .contenedor-items_contacto {
+    margin-top: 3rem;
+}
+main section .contenedor-items_contacto ul {
+    display: flex;
+    list-style: none;
+    margin-top: 3rem;
+}
+
+main section .contenedor-items_contacto ul li p {
+    width: 20vw;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0rem 0rem 2rem 4rem;
+}
+main section .contenedor-items_contacto ul li i svg {
+    margin: 0rem 0rem 2rem 1rem;
+}
+main section .contenedor-items_contacto .img-googleplay img{
+    width: 10vw;
+}
+main section .contenedor-items_contacto .img-applestore img{
+    width: 11vw;
+}
+main section .contenedor-items_menus {
+    width: 55vw;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+main section .conenedor-menu-items{
+    margin-top: 3rem;
+}
+main section .contenedor-items_contacto .iconos-tienda {
+    width: auto;
+    display: flex;
+    margin-left: 80px;
+    padding-left: 20px;
+}
+main section .contenedor-items .contenedor-items_contacto .fondo-tienda {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin: 0rem 1rem 1rem 5rem;
+    padding: 0.1rem;
+}
+main section .contendero-contacto-wiki {
+    margin-left: 5rem;
+}
+main section .contenedor-items .items_menu__commons{
+    display: inline-block;
+}
+main section .contenedor-items .items_menu__commons a {
+    display: flex;
+    margin: 0 1rem;
+}
+main section .contenedor-items .items_menu__commons img {
+    width: 40px;
+    margin: 0 1rem;
+    display: inline-block;
+}
+main section .contenedor-items .items_menu__commons .commons-text {
+    text-align: left;
+    width: 16rem;
+}
+main section .contenedor-items .commons-text-uno{
+    font-size: 1.4rem;
+    color: #36c;
+}
+main section .contenedor-items .commons-text-dos{
+    font-size: 1.3rem;
+    color: #54595d;
+}
+main footer{
+    text-align: center;
+    font-size: 1.5rem;
+}
+main footer .footer a {
+    text-decoration: none;
+    color: #36c;
+}
+main footer .footer small::after {
+    content: "\2022";
+    margin: 0 1rem;
+
+}

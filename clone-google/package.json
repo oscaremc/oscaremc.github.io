@@ -1,0 +1,19 @@
+{
+  "name": "clone-google",
+  "version": "1.0.0",
+  "description": "este es el clon de google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscaremc/ProyectoPersonal.git"
+  },
+  "author": "oscar montalvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscaremc/ProyectoPersonal/issues"
+  },
+  "homepage": "https://github.com/oscaremc/ProyectoPersonal#readme"
+}
