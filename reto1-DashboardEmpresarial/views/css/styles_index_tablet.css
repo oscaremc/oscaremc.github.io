@@ -6,6 +6,11 @@
 html{
     font-size: 62.5%;
 }
+.menu main .container-main-tablet {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: repeat(2, 1fr);
+}
 main .container-main {
     position: relative;
     display: grid;
