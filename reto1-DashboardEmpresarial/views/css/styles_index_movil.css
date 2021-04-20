@@ -31,11 +31,6 @@ main .container-main{
     display: block;
     height: auto;
 }
-main .container-main {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, 1fr);
-}
 main .container-main--titulo p{
     width: 100%;
 }
@@ -45,8 +40,6 @@ main .container-main .container--main--texto{
     text-align: center;
 }
 main .container--main--texto {
-    grid-column: 1;
-    grid-row: 1;
     display: block;
 }
 .container-main .container--main--texto{

@@ -6,7 +6,7 @@ html{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .modal_editar {
-    display: flex;
+    display: block;
 }
 .contenedor-editar{
     position: relative;
@@ -18,7 +18,7 @@ html{
     margin:  20px auto;
     align-items: center;
     padding: 30px 50px;
-    width: 600px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #000;
 }

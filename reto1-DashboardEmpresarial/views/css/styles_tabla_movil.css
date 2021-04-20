@@ -56,10 +56,8 @@ main .container-main {
     height: 90vh;
     display: grid;
     grid-template-columns: 10%, auto, 10px;
-
 }
 main .container-main-tabla {
-    
     width: 100%;
     max-width: 500px;
     grid-column: 2;
