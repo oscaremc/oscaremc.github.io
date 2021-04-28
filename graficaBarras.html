@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estilosbarras-movil.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="styles/estilosbarras.css">
+    <title>Calculadora Grafica</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <button title="Ir! plano cartesiano" class="buttonPlano">
+            <a href="index.html" >
+                <p>PLANO CARTESIANO</p>
+            </a>
+        </button>
+        <div class="titulo">
+            <h1>
+                CALCULADORA GRAFICA
+            </h1>
+        </div>
+        <button class="buttonGrafica">
+            <a href="graficaBarras.html" title="Estas aquie ahora!">
+                <p>GRAFICA DE BARRAS</p>
+            </a>
+        </button>
+    </header>
+    <main>
+        <section class="main">
+            <section class="barras-container-detalle">
+                <div class="container-detalle-instrucciones">
+                    <h2>INSTRUCCIONES</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cumque odio iusto, ipsa impedit mollitia et tempora, natus consequuntur voluptas est architecto illum laudantium hic assumenda odit, voluptatibus praesentium necessitatibus!</P>
+                </div>
+                <div class="container-detalle-form">
+                    <div>
+                        <h2>INGRESAR</h2>
+                        <form id="form-param" class="formulario">
+                            <div>
+                                <label for=""><h3>1. </h3></label>
+                                <input type="text" placeholder="parametro" id="inputUnoX" name="inputUnoX" class="parametro" focus>
+                                <input type="number" placeholder="valor" id="inputUnoY" name="inputUnoY" class="valor">
+                            </div>
+                            <div>
+                                <label for=""><h3>2. </h3></label>
+                                <input type="text" placeholder="parametro" id="inputDosX" name="inputDosX"  class="parametro">
+                                <input type="number" placeholder="valor" id="inputDosY" name="inputDosY"  class="valor">
+                            </div>
+                            <div>
+                                <label for=""><h3>3. </h3></label>
+                                <input type="text" placeholder="parametro" id="inputTresX" name="inputTresX"  class="parametro">
+                                <input type="number" placeholder="valor" id="inputTresY" name="inputTresY"  class="valor">
+                            </div>
+                            <div>
+                                <label for=""><h3>4. </h3></label>
+                                <input type="text" placeholder="parametro" id="inputCuatroX" name="inputCuatroX" class="parametro">
+                                <input type="number" placeholder="valor" id="inputCuatroY" name="inputCuatroY" class="valor">
+                            </div>
+                            <div>
+                                <label for=""><h3>5. </h3></label>
+                                <input type="text" placeholder="parametro" id="inputCincoX" name="inputCincoX"  class="parametro">
+                                <input type="number" placeholder="valor" id="inputCincoY" name="inputCincoY"  class="valor">
+                            </div>
+                            <button type="button" class="showResults">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="barras-container-grafica">
+                <figure class="highcharts-figure">
+                    <div id="grafico"></div>
+                </figure>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

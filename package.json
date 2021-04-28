@@ -1,0 +1,32 @@
+{
+  "name": "calculadoragrafica",
+  "version": "1.0.0",
+  "description": "reto2-platziMaster-realizar una calculadora grafica que tenga un plano cartesiano e interactuar con el ademas, debe tener un grafica en barras que tambien puedes interactuar con el. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscaremc/reto2-calculadoraGrafica.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "plano",
+    "cartesiano",
+    "grafica",
+    "barras",
+    "calculadora",
+    "reto2",
+    "platzi",
+    "master"
+  ],
+  "author": "oscaremc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscaremc/reto2-calculadoraGrafica/issues"
+  },
+  "homepage": "https://github.com/oscaremc/reto2-calculadoraGrafica#readme"
+}
