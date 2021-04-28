@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index_movil.css" media="(max-width: 426px)">
+    <link rel="stylesheet" href="styles/index_tablet.css" media="(max-width: 800px)">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <title>Calculadora Grafica</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button class="buttonPlano">
+            <a href="" title="Estas aqui!">
+                <p>PLANO CARTESIANO</p>
+            </a>
+        </button>
+        <div class="titulo">
+            <h1>
+                CALCULADORA GRAFICA
+            </h1>
+        </div>
+        <button href="graficaBarras.html" class="buttonGrafica">
+            <a href="graficaBarras.html" title="Ir a grafica de barras">
+                <p>GRAFICA DE BARRAS</p>
+            </a>
+        </button>
+    </header>
+    <main>
+        <section class="container-grafica">
+            <div class="cartesiano" id="listData">
+                <div class="xx"></div>
+                <div class="yy"></div>
+                <!-- marcadores -->
+                <div class="y-200px">-200px</div>
+                <div class="y-100px">-100px</div>
+                <div class="y200px">200px</div>
+                <div class="y100px">100px</div>
+                <div class="y0px">0px</div>
+                <div class="x100px">100px</div>
+                <div class="x200px">200px</div>
+                <div class="x300px">300px</div>
+                <div class="x-100px">-100px</div>
+                <div class="x-200px">-200px</div>
+                <div class="x-300px">-300px</div>
+            </div>
+        </section>
+        <section class="container-detalle">
+            <div class="detalle--instrucciones">
+                <h2>INSTRUCCIONES</h2>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora cum voluptatibus omnis modi accusantium perspiciatis, animi laborum nobis optio repellendus nihil? Nemo alias esse perferendis qui omnis aliquam quod voluptatem.</P>
+            </div>
+            <section class="detalle-titulo">
+                <h2>INGRESAR</h2>
+            </section>
+            <section class="detalle-form">
+                <div>
+                    <form action="" id="myForm">
+                        <label for="x"><h2>Eje X :</h2></label>
+                        <input type="number" placeholder="0 - 9" id="datox" class="datox" name="datox">
+                        <label for=""><h2>Eje Y :</h2></label>
+                        <input type="number" placeholder="0 - 9" id="datoy" class="datoy" name="datoy">
+                        <button type="submit">
+                            Enviar
+                        </button>
+                        </form>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
