@@ -89,6 +89,9 @@ main .container-producto img {
     display: flex;
     flex-wrap: wrap;
 }
+.producto-img {
+    width: 100%;
+}
 .producto-img img {
     max-width: 425px;
     width: 100%;
