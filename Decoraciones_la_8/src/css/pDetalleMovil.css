@@ -21,10 +21,6 @@ html {
 .nav-logo img {
     width: 170px;
 }
-main .container-producto img {
-    max-width: 420px;
-    width: 100%;
-}
 .container-footer {
     background: var(--azul);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #fff, var(--azul));  /* Chrome 10-25, Safari 5.1-6 */
