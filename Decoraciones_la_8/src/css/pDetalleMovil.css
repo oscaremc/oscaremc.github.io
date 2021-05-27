@@ -75,8 +75,8 @@ main .container-producto-detalle {
     margin: 0 10px;
 }
 .producto-detalle-btn {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     margin: auto;
     display: flex;
     justify-content: center;
