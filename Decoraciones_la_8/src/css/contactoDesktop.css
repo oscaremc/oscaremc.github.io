@@ -29,10 +29,8 @@ nav {
 }
 .container-main {
     background-color: var(--azul);
-    text-align: center;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .container-producto img {
     max-width: 420px;
@@ -44,10 +42,7 @@ nav {
     background: linear-gradient(to top, #fff, var(--azul)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
 }
-.main-tel-container{
-    flex-wrap: wrap;
-}
-.container-footer {
+.container-footer{
     font-size: 2rem;
     font-weight: 700;
     display: flex;
@@ -56,7 +51,9 @@ nav {
 }
 .main-dir {
     margin: 10px 40px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 .main-tel-numero  a{
     display: flex;
@@ -68,6 +65,10 @@ nav {
     width: 200px;
     margin: auto;
     border-radius: 10px;
+}
+.main-tel-container{
+    display: flex;
+    justify-content: center;
 }
 .main-tel-numero p, .main-dir-numero p, .hoarios-numero-ls p, .hoarios-numero-d p{
     font-size: 1.6rem;
@@ -157,8 +158,7 @@ form textarea {
     padding: 3px 5px;
 
 }
-.main-dir .main-dir-ubicacion iframe {
-    max-width: 500px;
-    width: 100%;
+.main-dir-ubicacion iframe {
+    width: 500px;
     height: 250px;
 }
