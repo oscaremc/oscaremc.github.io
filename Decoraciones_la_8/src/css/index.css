@@ -38,7 +38,7 @@ nav {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
 }
 .container-producto {
     display: inline-flex;
